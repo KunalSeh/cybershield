@@ -1,0 +1,36 @@
+# ── Virtual Environment ──────────────────────────────────────
+cybershield-env/
+venv/
+env/
+.env
+
+# ── Datasets (too large for GitHub) ─────────────────────────
+cyberbullying_tweets.csv
+measuring-hate-speech.parquet
+
+# ── Trained Model Files (too large for GitHub) ───────────────
+*.pkl
+sbert_embeddings_train.pkl
+sbert_embeddings_test.pkl
+X_test_embeddings.pkl
+y_test.pkl
+
+# ── Python Cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ── OS Files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
